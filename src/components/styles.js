@@ -6,7 +6,7 @@ export const StyledContainer = styled.div`
   color: #ffffff;
   font-family: Comic Sans MS, sans-serif;
   font-size: 36px;
-  height: 1000px;
+  height: 500px;
 
 `;
 
