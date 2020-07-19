@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledContainer = styled.div`
+  margin:auto;
   background: #e34f3d;
   padding: 100px 20px 20px;
   color: #ffffff;
@@ -10,6 +11,7 @@ export const StyledContainer = styled.div`
   @media (max-width: 576px) {
     height: 800px;
     padding: 20px;
+    margin:auto;
   }
 `;
 
