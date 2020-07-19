@@ -7,12 +7,21 @@ export const StyledContainer = styled.div`
   font-family: Comic Sans MS, sans-serif;
   font-size: 36px;
   height: 500px;
-
+  @media (max-width: 576px) {
+    height: 800px;
+    padding: 20px;
+  }
 `;
 
 export const FlexContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
+
+  @media (max-width: 576px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 `;
 
 export const Word = styled.div`
@@ -20,8 +29,8 @@ export const Word = styled.div`
 `;
 
 export const Indicator = styled.div`
-font-family:Comic Sans MS, sans-serif;
-text-align:center;
+  font-family: Comic Sans MS, sans-serif;
+  text-align: center;
 `;
 
 export const StyledButton = styled.button`
@@ -33,35 +42,35 @@ export const StyledButton = styled.button`
   border: none;
   font-size: 28px;
   border-radius: 3px;
-  margin:10px;
-  
+  margin: 10px;
 `;
 
 export const StyledControlButton = styled(StyledButton)`
   && {
     width: 100px;
   }
-  text-align:center;
+  text-align: center;
   color: green;
 `;
 
 export const TimerWrapper = styled.div`
-padding:80px;
-height:200px;
-width:200px;
-border-radius:200px;
-background:#5555ff;
-display:flex;
-flex-direction:column;
-align-items: center;
-justify-content: center;
-`
+  padding: 80px;
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  background: #5555ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
 
 export const GroupWrapper = styled.div`
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items:center;
-`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
 export const ButtonsWrapper = styled.div`
-display:flex;` 
+  display: flex;
+`;
