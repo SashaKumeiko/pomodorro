@@ -9,7 +9,7 @@ export const StyledContainer = styled.div`
   font-size: 36px;
   height: 500px;
   @media (max-width: 576px) {
-    height: 800px;
+    height: 670px;
     padding: 20px;
     margin:auto;
   }
@@ -65,6 +65,11 @@ export const TimerWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media (max-width: 576px) {
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+  }
 `;
 
 export const GroupWrapper = styled.div`
